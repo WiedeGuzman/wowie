@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: "Merriweather-Regular";
+
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-family: "Montserrat-Bold";
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-family: "Montserrat-SemiBold";
+}
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "Sacramento-Regular";
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-LightItalic.ttf);
+    font-family: "Merriweather-LightItalic";
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
+    font-family: "Montserrat-Thin";
+}
+
+@keyframes CloudLeft{
+    0%{
+        opacity: 10;
+        transform: translateX(-100vw);
+    }
+    
+    10%{opacity: 10;
+        transform: translateX(100vw);
+
+    }      
+}
+
+@keyframes CloudRight{
+    0%{
+        opacity: 10;
+        transform: translateX(80vw);
+    }
+    
+    10%{opacity: 10;
+        transform: translateX(20rem);
+
+    }      
+}
+@keyframes CloudRight{
+    0%{
+        opacity: 10;
+        transform: translateX(80vw);
+    }
+    
+    10%{opacity: 10;
+        transform: translateX(20rem);
+
+    }      
+}
+div{
+    margin-top: 20rem;
+}
+
+header{
+    background: #fcbd8b;
+    color: #ff662a;
+}
+
+.cloud{
+    position: relative;
+    top: 20rem;
+    margin-top: 15rem;
+    margin-left: 60rem;
+    animation: CloudLeft 120s linear;
+}
+
+.name{
+    font-family: "Sacramento-Regular";
+    margin-top: -10rem;
+    font-size: 8rem;
+}
+
+.title{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.cloud2{
+    position: relative;
+     margin-top: 5rem;
+     margin-left: 20rem;
+     display: block;
+     animation: CloudLeft 150s linear;
+
+ }
+
+ .cloud3{
+    position: relative;
+     margin-bottom: 1rem;
+     margin-left: 20rem;
+     display: block;
+     animation: CloudLeft 130s linear;
+
+ }
+
+
+.me{
+    height: 20rem;
+    border-radius: 20rem;
+    width: 20rem;
+}
+
+.hello{
+    margin-top: 1rem;
+    font-size: 6rem;
+    color: #ff662a;
+    margin-bottom: 10rem;
+    font-family: "Montserrat-Thin";
+}
+
+.title3{
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.title2{
+    margin: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+    color: #ff662a;
+    font-family: "Montserrat-SemiBold";
+    font-size: 4rem;
+}
+
+.myskills{
+    margin-bottom: -12rem;
+    font-weight: bold;
+    font-size: 6rem;
+    color: #ff662a;
+    font-family: "Montserrat-Thin";
+}
+
+.skills{
+    margin-left: 20rem;
+    margin-right: 10rem;
+}
+
+.description{
+    text-align: center;
+    height: 10rem;
+    font-size: 3rem;
+}
+
+.gamedev{
+    float: left;
+    height: 20rem ;
+    margin: 2rem;
+}
+
+.gamer{
+    float: right;
+    right: 60rem;
+    height: 20rem;
+    margin: 2rem;
+}
+
+.get{
+    font-size: 4rem;
+    color: #ff662a;
+    font-family: "Montserrat-Bold";
+    margin: 2rem;
+}
+
+.lets{
+    font-size: 3rem;
+    color: #ff662a;
+    margin: 3rem;
+    font-family: "Montserrat-SemiBold";
+}
+
+.prog{
+    font-size: 1.5rem;
+    color: #ff662a;
+    margin: 1rem;
+}
+
+.contact{
+    margin-top: 5rem;
+    background: #ff662a;
+    color: white;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    font-style: normal;
+    border-radius: 3rem;
+}
+
+.contact:hover{
+    background: #fcbd8b;
+    color: white;
+}
+
+footer{
+    background: #ff662a;
+    color: white;
+    height: 5rem;
+    margin: 3rem;
+    padding: 3rem;
+}
